@@ -87,6 +87,7 @@ Espero que você curta a experiência da nossa solução para organização fina
 
 # Widget de upload de dados
 file_upload = st.file_uploader(label="Faça upload dos dados aqui", type=['csv'])
+link = st.link_button("Entre no link do template", "https://docs.google.com/spreadsheets/d/1-t9KenqGfLNrd8UJ79xS7eaq42ed95E7jf0VnavGuoA/edit?usp=sharing")
 # Verifica se algum arquivo deu upload
 if file_upload:
     # Leitura dos dados
